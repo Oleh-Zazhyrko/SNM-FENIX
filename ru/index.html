@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNM FENIX</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="https://kit.fontawesome.com/e7319fd88e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  position-fixed top-0 w-100 py-3">
+        <div class="container">
+
+            <a href="#home">
+                <img src="../logo/vertical logo in black.svg" alt="logo" class="logo__img">
+            </a>
+
+            <!-- <a class="navbar-brand" href="#">Navbar</a>-->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="#home">Главная</a>
+                    <a class="nav-link" href="#aboutus">Про нас</a>
+                    <a class="nav-link" href="#services">Что мы делаем</a>
+                    <a class="nav-link" href="#materials">Материалы</a>
+                    <a class="nav-link" href="#approach">Подход</a>
+                    <a class="nav-link" href="#gallery">Галерея</a>
+                    <a class="nav-link" href="#contacts">Контакты</a>
+
+                    <!-- Language Switch -->
+                    <div class="lang-switch ms-lg-4 mt-3 mt-lg-0">
+                        <a href="/" class="lang-link">EN</a>
+                        <span class="lang-separator">|</span>
+                        <a href="/pl/index.html" class="lang-link">PL</a>
+                        <span class="lang-separator">|</span>
+                        <a href="/ru/index.html" class="lang-link active">RU</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-img" id="home">
+        <div class="hero-text">
+            <h1>Изделия из <span>камня</span></h1>
+            <p>Архитектура вне времени</p>
+            <a href="#aboutus" class="btn btn-outline-light mt-2 text-uppercase btn__gold">О компании</a>
+        </div>
+        <div class="hero-shadow"></div>
+
+        <!-- <a href="#aboutus"><i class="fa-solid fa-circle-arrow-down"></i></a> -->
+    </header>
+
+    <main>
+        <section id="aboutus" class="aboutus py-5">
+
+            <div class="container">
+                <h2 class="section-title">познакомиться с нами</h2>
+                <div class="underline"></div>
+                <p class="section-title-text"><span>SNM FENIX</span> – европейский бренд изделий из натурального камня
+                    для ванных
+                    пространств и интерьеров.
+
+                </p>
+                <p class="section-title-text"> Мы создаём каменные объекты, которые становятся частью пространства и
+                    сохраняют актуальность вне
+                    трендов.</p>
+                <p class="section-title-text">Каждое изделие – это баланс формы, материала и функции,
+                    созданный под конкретную задачу и конкретный проект.</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-4 p-2">
+                        <div class="aboutus-card-content">
+                            <div class="aboutus-card card-sink">
+                                <p class="aboutus-card-title">Раковины</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 p-2">
+                        <div class="aboutus-card-content">
+                            <div class="aboutus-card card-bath">
+                                <p class="aboutus-card-title">Ванны</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 p-2">
+                        <div class="aboutus-card-content">
+                            <div class="aboutus-card card-table">
+                                <p class="aboutus-card-title">Столы</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services py-5" id="services">
+            <div class="container">
+                <h2 class="section-title">наши направления</h2>
+                <div class="underline"></div>
+
+                <!-- Вступление -->
+                <div class="services-intro mb-5">
+                    <p class="section-title-text"><span>Наше ключевое направление</span> – каменные ванны и раковины как
+                        архитектурные акценты
+                        пространства.</p>
+                    <p class="section-title-text">Также мы работаем с:</p>
+                </div>
+
+                <!-- 1: текст слева / фото справа -->
+                <div class="row align-items-center gy-4 mb-5 services-item">
+                    <div class="col-12 col-lg-6">
+                        <h3 class="services-item-title">Столешницы</h3>
+                        <ul class="services-list">
+                            <li>Кухни и ванные</li>
+                            <li>Под проект и размеры</li>
+                            <li>Большой выбор камня</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img src="./img/services/countertop.jpeg" class="img-fluid services-img" alt="Countertops">
+                    </div>
+                </div>
+
+                <!-- 2: фото слева / текст справа (на мобилке текст сверху) -->
+                <div class="row align-items-center gy-4 mb-5 services-item">
+                    <div class="col-12 col-lg-6 order-lg-2">
+                        <h3 class="services-item-title">Столы</h3>
+                        <ul class="services-list">
+                            <li>Обеденные и журнальные столы</li>
+                            <li>Массив натурального камня</li>
+                            <li>Индивидуальный дизайн и размеры</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-6 order-lg-1">
+                        <img src="./img/services/table.jpg" class="img-fluid services-img" alt="Stone tables">
+                    </div>
+                </div>
+
+                <!-- 3: текст слева / фото справа -->
+                <div class="row align-items-center gy-4 mb-5 services-item">
+                    <div class="col-12 col-lg-6">
+                        <h3 class="services-item-title">Интерьерные элементы</h3>
+                        <ul class="services-list">
+                            <li>Подоконники, панели, полки</li>
+                            <li>Фактуры и отделки</li>
+                            <li>Для частных и коммерческих объектов</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img src="./img/services/interior.jpeg" class="img-fluid services-img" alt="Interior elements">
+                    </div>
+                </div>
+
+                <!-- 4: фото слева / текст справа -->
+                <div class="row align-items-center gy-4 services-item">
+                    <div class="col-12 col-lg-6 order-lg-2">
+                        <h3 class="services-item-title">Скульптуры и статуи</h3>
+                        <ul class="services-list">
+                            <li>Уникальные изделия</li>
+                            <li>Ручная работа</li>
+                            <li>Для интерьера и экстерьера</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-6 order-lg-1">
+                        <img src="./img/services/sculpture.jpeg" class="img-fluid services-img" alt="Sculptures">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="materials-hero py-5" id="materials">
+            <div class="materials-overlay"></div>
+
+            <div class="container">
+                <div class="materials-hero__inner">
+                    <h2 class="section-title">Коллекция материалов</h2>
+                    <div class="underline"></div>
+
+                    <div class="materials-text">
+                        <p class="section-title-text">
+                            Натуральный камень никогда не повторяется — у него свой рисунок, плотность и характер.
+                            Именно поэтому каждое изделие <span>SNM FENIX</span> уникально и создаётся не по шаблону, а
+                            под
+                            конкретное
+                            пространство.
+                            Мы работаем с материалом так, чтобы он подчёркивал архитектуру, а не спорил с ней.
+                            Практично. Эксклюзивно. Долговечно.
+                        </p>
+                    </div>
+
+                    <div class="materials-grid mt-5">
+
+                        <div class="materials-card">
+                            <h3 class="materials-card__title">Travertine / Травертин</h3>
+                            <p class="materials-card__desc">
+                                Тёплая фактура и архитектурный характер. Отлично работает в минимализме и
+                                средиземноморской эстетике.
+                            </p>
+                            <ul class="materials-card__list">
+                                <li><b>Плюсы:</b> природная текстура, комфортный тон, “живой” рисунок</li>
+                                <li><b>Лучше всего:</b> тумбы, облицовка стен, столешницы, панели</li>
+                                <li><b>Важно:</b> пористый камень — обязательна качественная пропитка</li>
+                            </ul>
+                        </div>
+
+                        <div class="materials-card">
+                            <h3 class="materials-card__title">Onyx / Оникс</h3>
+                            <p class="materials-card__desc">
+                                Камень для акцентных решений. Полупрозрачность раскрывается с подсветкой и даёт
+                                “вау-эффект”.
+                            </p>
+                            <ul class="materials-card__list">
+                                <li><b>Плюсы:</b> глубина рисунка, светопроницаемость, премиальный акцент</li>
+                                <li><b>Лучше всего:</b> раковины, панели, вставки, декоративные зоны</li>
+                                <li><b>Важно:</b> деликатный уход и корректная конструкция изделия</li>
+                            </ul>
+                        </div>
+
+                        <div class="materials-card">
+                            <h3 class="materials-card__title">Limestone / Известняк</h3>
+                            <p class="materials-card__desc">
+                                Спокойная однородная структура и мягкая тактильность — “чистая архитектура” без
+                                визуального шума.
+                            </p>
+                            <ul class="materials-card__list">
+                                <li><b>Плюсы:</b> элегантная матовость, натуральная палитра, универсальность</li>
+                                <li><b>Лучше всего:</b> стеновые панели, подоконники, полки, элементы интерьера</li>
+                                <li><b>Важно:</b> защита от агрессивной химии + пропитка</li>
+                            </ul>
+                        </div>
+
+                        <div class="materials-card">
+                            <h3 class="materials-card__title">Marble / Мрамор (разные цвета)</h3>
+                            <p class="materials-card__desc">
+                                Выразительные прожилки и богатая палитра. Идеален, когда эстетика и уникальность —
+                                ключевое требование.
+                            </p>
+                            <ul class="materials-card__list">
+                                <li><b>Плюсы:</b> премиальный внешний вид, вариативность рисунка, статус</li>
+                                <li><b>Лучше всего:</b> ванны, раковины, стены, столешницы для ванных</li>
+                                <li><b>Важно:</b> чувствителен к кислотам — пропитка и правильный уход</li>
+                            </ul>
+                        </div>
+
+                        <div class="materials-card">
+                            <h3 class="materials-card__title">Labradorite / Лабрадорит</h3>
+                            <p class="materials-card__desc">
+                                Эффект иризации (переливов) создаёт сильный premium-акцент — особенно в тёмных
+                                интерьерах и при свете.
+                            </p>
+                            <ul class="materials-card__list">
+                                <li><b>Плюсы:</b> “переливы”, глубина цвета, эффектность</li>
+                                <li><b>Лучше всего:</b> столешницы, панели, барные зоны, акцентные детали</li>
+                                <li><b>Важно:</b> полировка раскрывает иризацию, важен подбор рисунка</li>
+                            </ul>
+                        </div>
+
+                        <div class="materials-card">
+                            <h3 class="materials-card__title">Granite / Гранит</h3>
+                            <p class="materials-card__desc">
+                                Максимум практичности и износостойкости. Выбор для активной эксплуатации и коммерческих
+                                пространств.
+                            </p>
+                            <ul class="materials-card__list">
+                                <li><b>Плюсы:</b> твёрдость, стойкость к влаге, царапинам и нагрузке</li>
+                                <li><b>Лучше всего:</b> кухонные столешницы, умывальники, подоконники</li>
+                                <li><b>Важно:</b> один из самых долговечных натуральных камней</li>
+                            </ul>
+                        </div>
+
+                        <div class="materials-card">
+                            <h3 class="materials-card__title">Sandstone / Песчаные породы</h3>
+                            <p class="materials-card__desc">
+                                Натуральная “земляная” фактура и мягкая эстетика. Хорошо сочетается с деревом, металлом,
+                                тёплым светом.
+                            </p>
+                            <ul class="materials-card__list">
+                                <li><b>Плюсы:</b> выразительная фактура, природный вид, тактильность</li>
+                                <li><b>Лучше всего:</b> облицовка, декор, подоконники, акцентные элементы</li>
+                                <li><b>Важно:</b> пористость — защита пропиткой, аккуратность во влажных зонах</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="approach py-5 bg-black" id="approach">
+            <div class="container">
+                <h2 class="section-title">Наш подход</h2>
+                <div class="underline"></div>
+
+                <div class="approach-wrap">
+                    <p class="section-title-text">
+                        Каждое изделие SNM FENIX создаётся под конкретное пространство — мы учитываем архитектуру,
+                        сценарий использования и эстетику проекта. Сопровождаем заказ на всех этапах: от идеи и подбора
+                        камня
+                        до производства и доставки по Европе.
+                    </p>
+
+                    <div class="row gy-4 mt-2">
+                        <div class="col-12 col-lg-6">
+                            <div class="approach-card">
+                                <h3 class="approach-card__title">Мы учитываем</h3>
+                                <ul class="approach-list">
+                                    <li>Архитектуру и масштаб пространства</li>
+                                    <li>Функциональные требования и эргономику</li>
+                                    <li>Эстетику проекта и материалы окружения</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6">
+                            <div class="approach-card">
+                                <h3 class="approach-card__title">Нас выбирают за</h3>
+                                <ul class="approach-list">
+                                    <li>Европейское качество и точность исполнения</li>
+                                    <li>Контроль на каждом этапе производства</li>
+                                    <li>Прозрачный и понятный процесс</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="approach-highlight mt-4">
+                        <span class="approach-highlight__label">Логистика</span>
+                        <p class="approach-highlight__text">
+                            Средний срок доставки по Европе — около <b>1 недели</b> после готовности изделия.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-carousel py-5" id="gallery">
+            <div class="container">
+                <h2 class="section-title">галерея</h2>
+                <div class="underline"></div>
+
+                <div class="swiper gallerySwiper">
+                    <div class="swiper-wrapper" id="swiperWrapper"></div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta py-5" id="cta">
+            <div class="container">
+                <div class="cta-box">
+
+                    <h2 class="cta-title">Обсудить проект</h2>
+                    <div class="underline"></div>
+
+                    <p class="section-title-text">
+                        Мы рассчитаем стоимость и подберём оптимальное решение под ваш запрос.
+                    </p>
+
+                    <div class="cta-actions">
+                        <a href="mailto:snmfenixsales@gmail.com" class="cta-btn">
+                            Написать нам
+                        </a>
+
+                        <a href="tel:+48577255078" class="cta-phone">
+                            или звоните: <span>+48 577 255 078</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contacts py-5" id="contacts">
+            <div class="container">
+                <h2 class="section-title">Контакты</h2>
+                <div class="underline"></div>
+
+                <div class="row gy-4 mt-2">
+
+                    <!-- Address -->
+                    <div class="col-12 col-lg-4">
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <h3 class="contact-title">Адрес</h3>
+                            <p class="contact-text">
+                                Warsaw, Poland
+                            </p>
+                            <a class="contact-link" href="https://maps.app.goo.gl/GzYxWb6ijuH4vPZj9" target="_blank"
+                                rel="noopener">
+                                Открыть в Google Maps
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="col-12 col-lg-4">
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <h3 class="contact-title">Email</h3>
+                            <p class="contact-text">
+                                snmfenixsales@gmail.com
+                            </p>
+                            <a class="contact-link" href="mailto:snmfenixsales@gmail.com">
+                                Написать письмо
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Instagram -->
+                    <div class="col-12 col-lg-4">
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="fa-brands fa-instagram"></i></div>
+                            <h3 class="contact-title">Instagram</h3>
+                            <p class="contact-text">
+                                @snm.fenix
+                            </p>
+                            <a class="contact-link" href="https://www.instagram.com/snm.fenix/" target="_blank"
+                                rel="noopener">
+                                Перейти в профиль
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-line"></div>
+
+            <div class="footer-inner">
+
+                <div class="footer-left">
+                    © <span id="year"></span> SNM FENIX — Natural Stone Craftsmanship
+                </div>
+
+                <div class="footer-right">
+                    <a href="#aboutus">О нас</a>
+                    <a href="#services">Направления</a>
+                    <a href="#materials">Материалы</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
